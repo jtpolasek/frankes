@@ -1,11 +1,11 @@
 .header {
   height: 95vh;
   background-image: linear-gradient(
-    to right bottom,
-    rgba($color-black, 0.9),
-    rgba($color-grey-dark-3, 0.9)
-  );
-  // url(../img/razor.jpg);
+      to right bottom,
+      rgba($color-black, 0.1),
+      rgba($color-black, 0.1)
+    ),
+    url(../img/barber-bw.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -20,11 +20,11 @@
     only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
     only screen and (min-width: 125em) {
     background-image: linear-gradient(
-        to right bottom,
-        rgba($color-primary-light, 0.8),
-        rgba($color-primary-dark, 0.8)
-      ),
-      url(../img/razor.jpg);
+      to bottom,
+      rgba($color-black, 0.4),
+      rgba($color-black, 0.4)
+    );
+    //url(../img/razor.jpg);
   }
 
   @include respond(phone) {
@@ -39,12 +39,12 @@
   }
 
   &__logo {
-    height: 3.5rem;
+    height: 25rem;
   }
 
   &__text-box {
     position: absolute;
-    top: 40%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
