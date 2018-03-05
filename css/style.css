@@ -430,21 +430,18 @@ body {
     transform: scale(0.95); }
 
 .feature-box {
-  height: 130px;
-  width: 130px;
-  background: rgba(210, 214, 218, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   font-size: 1.5rem;
   padding: 5rem;
   text-align: center;
-  border: 3px solid black;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15), inset 3rem 2rem 5rem rgba(0, 0, 0, 0.15);
-  transform: rotate(45deg);
-  transition: transform 0.3s;
-  position: relative; }
+  border: 2px solid black;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15), inset 3rem 2rem 5rem rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s; }
   @media only screen and (max-width: 56.25em) {
     .feature-box {
-      padding: 2rem;
-      margin: 4rem auto; } }
+      padding: 5rem;
+      margin: 4rem auto;
+      font-size: 2.2rem; } }
   .feature-box__icon {
     font-size: 6rem;
     margin-bottom: 0.5rem;
@@ -456,15 +453,6 @@ body {
   @media only screen and (max-width: 56.25em) {
     .feature-box {
       margin-bottom: 5rem; } }
-  .feature-box__text {
-    padding-top: 20px;
-    margin-left: -8px;
-    display: table-cell;
-    vertical-align: middle;
-    height: 30px;
-    width: auto;
-    margin-right: -10px;
-    transform: rotate(-45deg); }
 
 .form__group:not(:last-child) {
   margin-bottom: 2rem; }
@@ -1049,7 +1037,7 @@ body {
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
   background: #fff;
   color: #000;
-  background-image: linear-gradient(to left bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/concretetools.jpg);
+  background-image: linear-gradient(to left bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../img/concretetools.jpg);
   background-size: cover; }
   @media only screen and (max-width: 56.25em) {
     .section-features {
