@@ -1056,7 +1056,8 @@ body {
       .section-features p {
         font-size: 2rem; } }
   .section-features .menu__box {
-    padding-bottom: 4rem; }
+    padding-bottom: 4rem;
+    color: #fff; }
 
 .section-tours {
   background-image: linear-gradient(to left bottom, transparent, transparent), url(../img/greywhite.jpg);
