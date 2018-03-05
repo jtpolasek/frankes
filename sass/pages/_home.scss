@@ -1,49 +1,80 @@
 .section-about {
-  background-color: $color-grey-dark-3;
-  padding: 25rem 0;
-  margin-top: -20vh;
-
+  // background-image: linear-gradient(
+  //     to left bottom,
+  //     rgba($color-black, 0),
+  //     rgba($color-black, 0)
+  //   ),
+  //   url(../img/greywhite.jpg);
+  background-image: url(../img/blackstrip.jpg);
+  padding: 5rem 0;
+  font-size: 3.5rem;
+  text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
+  color: $color-grey-light-1;
   @include respond(tab-port) {
-    padding: 20rem 0;
+    padding: 5rem 0;
+    font-size: 3.5rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 2rem;
   }
 }
 
 .section-features {
-  padding: 20rem 0;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba($color-black, 0.4),
-      rgba($color-black, 0.4)
-    ),
-    url(../img/tool.jpg);
-  background-size: cover;
+  padding: 20rem 0 30rem 0;
+  border: 6px solid black;
+  font-size: 3.6rem;
+  text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
+  background: slategray;
+  // background-image: linear-gradient(
+  //     to left bottom,
+  //     rgba($color-black, 0),
+  //     rgba($color-black, 0)
+  //   ),
+  //   url(../img/darkshave.jpg);
 
-  // transform: skewY(-7deg);
-  margin-top: -10rem;
-
+  background-size: cover; // transform: skewY(-7deg);
+  // margin-top: -10rem;
   & > * {
     //  transform: skewY(7deg);
   }
-
   @include respond(tab-port) {
     padding: 10rem 0;
+    font-size: 3.6rem;
+    h3 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 2rem;
+    }
+  }
+
+  .menu__box {
+    padding-bottom: 4rem;
   }
 }
 
 .section-tours {
-  background-color: $color-grey-light-1;
-  padding: 25rem 0 15rem 0;
+  background-image: linear-gradient(
+      to left bottom,
+      rgba($color-black, 0),
+      rgba($color-black, 0)
+    ),
+    url(../img/greywhite.jpg);
+  border: 6px solid black;
+  padding: 8rem 0 15rem 0;
   margin-top: -10rem;
-
   @include respond(tab-port) {
-    padding: 20rem 0 10rem 0;
+    padding: 10rem 0 10rem 0;
   }
 }
 
 .section-stories {
+  background-image: url(../img/blackstrip.jpg);
   position: relative;
   padding: 15rem 0;
-
   @include respond(tab-port) {
     padding: 10rem 0;
   }
@@ -52,15 +83,15 @@
 .section-book {
   padding: 15rem 0;
   background-image: linear-gradient(
-    to right bottom,
-    $color-grey-dark-3,
-    $color-grey-dark
+    to left bottom,
+    rgba($color-grey-light-1, 0),
+    rgba($color-grey-light-1, 0)
   );
-
   @include respond(tab-port) {
     padding: 10rem 0;
   }
 }
+
 .book {
   background-image: linear-gradient(
       105deg,

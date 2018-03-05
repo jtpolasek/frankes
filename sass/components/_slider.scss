@@ -1,0 +1,48 @@
+.sample-box {
+  background-color: rgba($color-white, 0.8);
+  border: 6px solid black;
+  font-size: 1.5rem;
+  padding: 1.6rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+  transition: transform 0.3s;
+
+  @include respond(tab-port) {
+    padding: 1.2rem;
+  }
+
+  @include respond(tab-port) {
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+  }
+  &__image {
+    width: 100%;
+  }
+}
+
+.instagram {
+  &:link,
+  &:visited {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 1rem 2rem;
+    color: $color-secondary-light;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    background-size: 220%;
+    transition: all 0.4s;
+    span {
+      margin-right: 1.5rem;
+      transition: all 0.4s;
+    }
+    span {
+      display: inline-block;
+    }
+  }
+}
