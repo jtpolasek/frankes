@@ -27,7 +27,8 @@
   border: 6px solid black;
   font-size: 3.6rem;
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
-  background: slategray;
+  background: $color-white;
+  color: $color-black;
   // background-image: linear-gradient(
   //     to left bottom,
   //     rgba($color-black, 0),
@@ -53,7 +54,7 @@
 
   .menu__box {
     padding-bottom: 4rem;
-    color: $color-white;
+    color: $color-black;
   }
 }
 

@@ -1,12 +1,14 @@
 .feature-box {
   height: 130px;
   width: 130px;
-  background-color: rgba($color-white, 1);
+  background: rgb(211, 220, 228);
+  // background-color: rgba($color-white, 1);
   font-size: 1.5rem;
   padding: 5rem;
   text-align: center;
-  border: 5px solid black;
-  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+  border: 3px solid black;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15),
+    inset 3rem 2rem 5rem rgba($color-black, 0.15);
   transform: rotate(45deg);
   transition: transform 0.3s;
   position: relative;
