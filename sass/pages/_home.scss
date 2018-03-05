@@ -29,12 +29,12 @@
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
   background: $color-white;
   color: $color-black;
-  // background-image: linear-gradient(
-  //     to left bottom,
-  //     rgba($color-black, 0),
-  //     rgba($color-black, 0)
-  //   ),
-  //   url(../img/darkshave.jpg);
+  background-image: linear-gradient(
+      to left bottom,
+      rgba($color-white, 0.8),
+      rgba($color-white, 0.8)
+    ),
+    url(../img/concretetools.jpg);
 
   background-size: cover; // transform: skewY(-7deg);
   // margin-top: -10rem;
