@@ -1,12 +1,11 @@
 .story {
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
   box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
   background-color: rgba($color-white, 1);
-  padding: 6rem;
-  padding-left: 9rem;
-  font-size: $default-font-size;
-  transform: skewX(-12deg);
+  padding: 2rem;
+  padding-left: 5rem;
+  font-size: 2rem;
 
   @include respond(tab-port) {
     width: 100%;
@@ -15,14 +14,12 @@
   }
 
   @include respond(phone) {
-    transform: skewX(0);
   }
 
   &__shape {
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     float: left;
-    transform: translateX(-3rem) skewX(12deg);
     position: relative;
     overflow: hidden;
     border-radius: 50%;
@@ -36,22 +33,19 @@
     }
 
     @include respond(phone) {
-      transform: translateX(-3rem) skewX(0);
     }
   }
 
   &__img {
     height: 100%;
+    margin-left: 12px;
     transform: translateX(-4rem) scale(1.4);
     backface-visibility: hidden;
     transition: all 0.5s;
   }
 
   &__text {
-    transform: skewX(12deg);
-
     @include respond(phone) {
-      transform: skewX(0);
     }
   }
 
@@ -62,7 +56,7 @@
     transform: translate(-50%, 20%);
     color: $color-white;
     text-transform: uppercase;
-    font-size: 1.7rem;
+    font-size: 2rem;
     text-align: center;
     opacity: 0;
     transition: all 0.5s;
@@ -77,5 +71,9 @@
   &:hover &__img {
     transform: translateX(-4rem) scale(1);
     filter: blur(3px) brightness(80%);
+  }
+
+  &__title {
+    color: $color-white;
   }
 }
