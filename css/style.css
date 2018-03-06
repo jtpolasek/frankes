@@ -454,6 +454,11 @@ body {
     .feature-box {
       margin-bottom: 5rem; } }
 
+hr {
+  border: 0;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #fff; }
+
 .form__group:not(:last-child) {
   margin-bottom: 2rem; }
 
