@@ -140,13 +140,13 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #f7f7f7; }
+  color: #000; }
   .heading-tertiary.menu {
     color: #000; }
 
 .paragraph {
   font-size: 1.6rem;
-  color: #f7f7f7; }
+  color: #000; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
 
@@ -453,11 +453,19 @@ body {
   @media only screen and (max-width: 56.25em) {
     .feature-box {
       margin-bottom: 5rem; } }
+  .feature-box__text,
+  .feature-box > * {
+    font-size: 2.2rem;
+    color: #fff; }
 
 hr {
   border: 0;
   border-top: 1px solid #000;
   border-bottom: 1px solid #fff; }
+
+.menu__box {
+  padding-bottom: 4rem;
+  color: #fff; }
 
 .form__group:not(:last-child) {
   margin-bottom: 2rem; }
@@ -1011,11 +1019,12 @@ hr {
   transform: rotate(-135deg); }
 
 .section-about {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), transparent), url(../img/abstractmetal.jpg);
+  border: 2px solid #000;
+  background-image: linear-gradient(to bottom, rgba(238, 238, 238, 0.9), rgba(255, 255, 255, 0.1));
   padding: 5rem 0;
   font-size: 3.5rem;
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
-  color: #f7f7f7; }
+  color: #000; }
   @media only screen and (max-width: 56.25em) {
     .section-about {
       padding: 5rem 0;
@@ -1026,12 +1035,12 @@ hr {
     font-size: 2rem; }
 
 .section-features {
-  padding: 20rem 0 30rem 0;
+  padding: 10rem 0 30rem 0;
   border: 6px solid black;
   font-size: 4rem;
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
   color: #000;
-  background-image: linear-gradient(to left bottom, transparent, transparent), url(../img/shavecream.jpg);
+  background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(../img/blackshavetools.jpg);
   background-size: cover; }
   @media only screen and (max-width: 56.25em) {
     .section-features {
@@ -1041,9 +1050,6 @@ hr {
         font-size: 3rem; }
       .section-features p {
         font-size: 2rem; } }
-  .section-features .menu__box {
-    padding-bottom: 4rem;
-    color: #000; }
 
 .section-tours {
   background-image: linear-gradient(to left bottom, transparent, transparent), url(../img/shavecream.jpg);
@@ -1058,7 +1064,7 @@ hr {
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
   color: #000;
   font-size: 3.5rem;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), transparent), url(../img/abstractmetal.jpg);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../img/abstractmetal.jpg);
   position: relative;
   padding: 15rem 0; }
   @media only screen and (max-width: 56.25em) {
@@ -1104,4 +1110,4 @@ hr {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 0; }
+  z-index: 20; }

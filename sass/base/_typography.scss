@@ -78,14 +78,14 @@ body {
   font-size: $default-font-size;
   font-weight: 700;
   text-transform: uppercase;
-  color: $color-grey-light-1;
+  color: $color-black;
   &.menu {
     color: $color-black;
   }
 }
 .paragraph {
   font-size: $default-font-size;
-  color: $color-grey-light-1;
+  color: $color-black;
   &:not(:last-child) {
     margin-bottom: 3rem;
   }
