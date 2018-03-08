@@ -1095,7 +1095,7 @@ hr {
     .book {
       height: 325px;
       width: 100%;
-      background-image: url(https://maps.googleapis.com/maps/api/staticmap?autoscale=2&size=300x500&maptype=roadmap&scale=2&key=AIzaSyCmLjbd91sCJ02knXEI9ryVkLvYvqFBtxk&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0x0080ff%7clabel:%7C329+hartz+ave+danville+ca); } }
+      background-image: url(https://maps.googleapis.com/maps/api/staticmap?autoscale=2&size=300x500&maptype=roadmap&zoom=18&scale=2&key=AIzaSyCmLjbd91sCJ02knXEI9ryVkLvYvqFBtxk&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0x0080ff%7clabel:%7C329+hartz+ave+danville+ca); } }
 
 #googlemap {
   position: absolute;
