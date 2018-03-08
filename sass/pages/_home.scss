@@ -83,6 +83,30 @@
   @include respond(tab-port) {
     padding: 10rem 0;
   }
+
+  .instagram {
+  &:link,
+  &:visited {
+     text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 1rem 2rem;
+    color: $color-secondary-light;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    background-size: 220%;
+    transition: all 0.4s;
+    span {
+      margin-right: 1.5rem;
+      transition: all 0.4s;
+    }
+    span {
+      display: inline-block;
+    }
+  }
+}
 }
 
 .section-book {
@@ -102,6 +126,14 @@
   font-size: 4.6rem;
   color: $color-black;
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
+}
+
+.address {
+   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
+  font-size: 3rem;
+  color: $color-black;
+  text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
+
 }
 .book {
   width: 100%;
