@@ -455,7 +455,7 @@ body {
       margin-bottom: 5rem; } }
   .feature-box__text,
   .feature-box > * {
-    font-size: 2.2rem;
+    font-size: 3rem;
     color: #fff; }
 
 hr {
@@ -714,6 +714,7 @@ hr {
     display: inline-block; }
 
 .footer {
+  border-top: 4px solid silver;
   background-color: #0c0b0c;
   padding: 10rem 0;
   font-size: 1.4rem;
@@ -750,7 +751,7 @@ hr {
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
-    transition: all .2s; }
+    transition: all 0.2s; }
   .footer__link:hover, .footer__link:active {
     color: #55c57a;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
@@ -1019,7 +1020,7 @@ hr {
   transform: rotate(-135deg); }
 
 .section-about {
-  border: 2px solid #000;
+  border-top: 4px solid silver;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/brown.jpg);
   padding: 5rem 0;
   font-size: 3.5rem;
@@ -1036,7 +1037,8 @@ hr {
 
 .section-features {
   padding: 20rem 0 30rem 0;
-  border: 2px solid silver;
+  border-top: 2px solid silver;
+  border-bottom: 2px solid silver;
   font-size: 4rem;
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
   color: #000;
@@ -1072,6 +1074,7 @@ hr {
       padding: 10rem 0; } }
 
 .section-book {
+  border-top: 4px solid silver;
   position: relative;
   padding: 15rem 0;
   background-image: linear-gradient(to left bottom, rgba(247, 247, 247, 0), rgba(247, 247, 247, 0)); }
