@@ -454,6 +454,8 @@ hr {
   color: #fff; }
 
 .story {
+  border-top: 4px solid silver;
+  border-bottom: 4px solid silver;
   width: 90%;
   margin: 0 auto;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
