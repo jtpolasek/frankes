@@ -65,6 +65,11 @@
     }
   }
 
+  &__title {
+    text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
+  }
+
+
   &__caption {
     position: absolute;
     top: 50%;
@@ -88,8 +93,5 @@
   //   transform: translateX(-4rem) scale(1);
   //   filter: blur(3px) brightness(80%);
   // }
-
-  &__title {
-    color: $color-white;
-  }
 }
+ 

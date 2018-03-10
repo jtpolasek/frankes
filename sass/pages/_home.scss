@@ -29,12 +29,13 @@
   font-size: 4rem;
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
   color: $color-black;
+  background-position: left;
   background-image: linear-gradient(
       to left bottom,
-      rgba($color-black, 0.4),
-      rgba($color-black, 0.1)
+      rgba($color-black, 0.5),
+      rgba($color-black, 0.5)
     ),
-    url(../img/blackshavetools.jpg);
+    url(../img/shave.jpg);
 
   background-size: cover; // transform: skewY(-7deg);
   // margin-top: -10rem;
@@ -59,7 +60,7 @@
       rgba($color-black, 0),
       rgba($color-black, 0)
     ),
-    url(../img/shavecream.jpg);
+    url(../img/shave.jpg);
   border: 6px solid black;
   padding: 8rem 0 15rem 0;
   margin-top: -10rem;
@@ -85,28 +86,28 @@
   }
 
   .instagram {
-  &:link,
-  &:visited {
-     text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
-    display: inline-block;
-    font-size: 3rem;
-    font-weight: 300;
-    padding: 1rem 2rem;
-    color: $color-secondary-light;
-    text-decoration: none;
-    text-transform: uppercase;
-
-    background-size: 220%;
-    transition: all 0.4s;
-    span {
-      margin-right: 1.5rem;
-      transition: all 0.4s;
-    }
-    span {
+    &:link,
+    &:visited {
+      text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
       display: inline-block;
+      font-size: 3rem;
+      font-weight: 300;
+      padding: 1rem 2rem;
+      color: $color-secondary-light;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      background-size: 220%;
+      transition: all 0.4s;
+      span {
+        margin-right: 1.5rem;
+        transition: all 0.4s;
+      }
+      span {
+        display: inline-block;
+      }
     }
   }
-}
 }
 
 .section-book {
@@ -129,11 +130,10 @@
 }
 
 .address {
-   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
+  text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
   font-size: 3rem;
   color: $color-black;
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
-
 }
 .book {
   width: 100%;
