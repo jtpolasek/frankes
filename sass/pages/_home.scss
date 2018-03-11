@@ -7,40 +7,6 @@
     ),
     url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MCIgaGVpZ2h0PSI3MCI+CjxyZWN0IHdpZHRoPSI3MCIgaGVpZ2h0PSI3MCIgZmlsbD0iI2ZmZiI+PC9yZWN0Pgo8ZyB0cmFuc2Zvcm09InJvdGF0ZSg0NSkiPgo8cmVjdCB3aWR0aD0iOTkiIGhlaWdodD0iMjUiIGZpbGw9IiMwMDAiPjwvcmVjdD4KPHJlY3QgeT0iLTUwIiB3aWR0aD0iOTkiIGhlaWdodD0iMjUiIGZpbGw9IiMwMDAiPjwvcmVjdD4KPC9nPgo8L3N2Zz4=');
 
-    .read-more-state {
-      display: none;
-    }
-    
-    .read-more-target {
-      opacity: 0;
-      max-height: 0;
-      font-size: 0;
-      transition: .25s ease;
-    }
-    
-    .read-more-state:checked ~ .read-more-wrap .read-more-target {
-      opacity: 1;
-      font-size: inherit;
-      max-height: 999em;
-    }
-    
-    .read-more-state ~ .read-more-trigger:before {
-      content: 'Read more';
-    }
-    
-    .read-more-state:checked ~ .read-more-trigger:before {
-      content: 'Read less';
-    }
-    
-    .read-more-trigger {
-      cursor: pointer;
-      display: inline-block;
-      padding: 0 .5em;
-      color: $color-grey-dark;
-      font-size: .9em;
-      line-height: 2;
-      border: 1px solid #ddd;
-    }
   padding: 5rem 0;
   font-size: 3.5rem;
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
@@ -62,6 +28,7 @@
   // @include respond(tab-land) {
   //   font-size: 2.6rem;
   // }
+
 }
 
 .dedication__text {
@@ -71,6 +38,41 @@
 
 .dedication__column {
   padding: 0 3rem;
+}
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Read more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Read less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: $color-grey-dark;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
 }
 
 .section-features {
