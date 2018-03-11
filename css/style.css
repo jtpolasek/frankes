@@ -872,7 +872,7 @@ hr {
   max-height: 999em; }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: 'Read more'; }
+  content: 'Read me'; }
 
 .read-more-state:checked ~ .read-more-trigger:before {
   content: 'Read less'; }
