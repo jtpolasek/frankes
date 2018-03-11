@@ -2,29 +2,80 @@
   border-top: 4px solid silver;
   background-image: linear-gradient(
       to bottom,
-      rgba($color-black, 0.4),
-      rgba($color-black, 0.4)
+      rgba($color-black, 0.9),
+      rgba($color-black, 0.9)
     ),
-    url(../img/brown.jpg);
+    url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MCIgaGVpZ2h0PSI3MCI+CjxyZWN0IHdpZHRoPSI3MCIgaGVpZ2h0PSI3MCIgZmlsbD0iI2ZmZiI+PC9yZWN0Pgo8ZyB0cmFuc2Zvcm09InJvdGF0ZSg0NSkiPgo8cmVjdCB3aWR0aD0iOTkiIGhlaWdodD0iMjUiIGZpbGw9IiMwMDAiPjwvcmVjdD4KPHJlY3QgeT0iLTUwIiB3aWR0aD0iOTkiIGhlaWdodD0iMjUiIGZpbGw9IiMwMDAiPjwvcmVjdD4KPC9nPgo8L3N2Zz4=');
+
+    .read-more-state {
+      display: none;
+    }
+    
+    .read-more-target {
+      opacity: 0;
+      max-height: 0;
+      font-size: 0;
+      transition: .25s ease;
+    }
+    
+    .read-more-state:checked ~ .read-more-wrap .read-more-target {
+      opacity: 1;
+      font-size: inherit;
+      max-height: 999em;
+    }
+    
+    .read-more-state ~ .read-more-trigger:before {
+      content: 'Read more';
+    }
+    
+    .read-more-state:checked ~ .read-more-trigger:before {
+      content: 'Read less';
+    }
+    
+    .read-more-trigger {
+      cursor: pointer;
+      display: inline-block;
+      padding: 0 .5em;
+      color: $color-grey-dark;
+      font-size: .9em;
+      line-height: 2;
+      border: 1px solid #ddd;
+    }
   padding: 5rem 0;
   font-size: 3.5rem;
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
   color: $color-white;
   @include respond(tab-port) {
     padding: 5rem 0;
-    font-size: 3.5rem;
-  }
-  h3 {
     font-size: 3rem;
-  }
-  p {
-    font-size: 2rem;
-  }
+  } // h3 {
+  //   font-size: 3rem;
+  // }
+  // p {
+  //   font-size: 2rem;
+  // }
+  // @include respond(phone) {
+  //   font-size: 3.5rem;
+  // @include respond(tab-port) {
+  //   font-size: 2.6rem;
+  // }
+  // @include respond(tab-land) {
+  //   font-size: 2.6rem;
+  // }
+}
+
+.dedication__text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 3rem;
+}
+
+.dedication__column {
+  padding: 0 3rem;
 }
 
 .section-features {
-  padding: 20rem 0 30rem 0;
   border-top: 2px solid silver;
+  padding: 20rem 0 30rem 0;
   border-bottom: 2px solid silver;
   font-size: 4rem;
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
@@ -36,7 +87,6 @@
       rgba($color-black, 0.5)
     ),
     url(../img/shave.jpg);
-
   background-size: cover; // transform: skewY(-7deg);
   // margin-top: -10rem;
   & > * {
@@ -75,16 +125,16 @@
   font-size: 3.5rem;
   background-image: linear-gradient(
       to bottom,
-      rgba($color-black, 0.4),
-      rgba($color-black, 0.4)
+      rgba($color-black, 0.9),
+      rgba($color-black, 0.9)
     ),
-    url(../img/brown.jpg);
+    url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MCIgaGVpZ2h0PSI3MCI+CjxyZWN0IHdpZHRoPSI3MCIgaGVpZ2h0PSI3MCIgZmlsbD0iI2ZmZiI+PC9yZWN0Pgo8ZyB0cmFuc2Zvcm09InJvdGF0ZSg0NSkiPgo8cmVjdCB3aWR0aD0iOTkiIGhlaWdodD0iMjUiIGZpbGw9IiMwMDAiPjwvcmVjdD4KPHJlY3QgeT0iLTUwIiB3aWR0aD0iOTkiIGhlaWdodD0iMjUiIGZpbGw9IiMwMDAiPjwvcmVjdD4KPC9nPgo8L3N2Zz4=');
+
   position: relative;
   padding: 15rem 0;
   @include respond(tab-port) {
     padding: 10rem 0;
   }
-
   .instagram {
     &:link,
     &:visited {
@@ -96,7 +146,6 @@
       color: $color-secondary-light;
       text-decoration: none;
       text-transform: uppercase;
-
       background-size: 220%;
       transition: all 0.4s;
       span {
@@ -123,6 +172,7 @@
     padding: 10rem 0;
   }
 }
+
 .map__title {
   font-size: 4.6rem;
   color: $color-black;
@@ -135,6 +185,7 @@
   color: $color-black;
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
 }
+
 .book {
   width: 100%;
   height: 600px;
@@ -151,8 +202,7 @@
     height: 325px;
     width: 100%;
     background-image: url(https://maps.googleapis.com/maps/api/staticmap?autoscale=2&size=300x500&maptype=roadmap&zoom=18&scale=2&key=AIzaSyCmLjbd91sCJ02knXEI9ryVkLvYvqFBtxk&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0x0080ff%7clabel:%7C329+hartz+ave+danville+ca);
-  }
-  // &__form {
+  } // &__form {
   //   position: relative;
   //   width: 100%;
   //   height: 300px;

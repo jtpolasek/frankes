@@ -70,6 +70,12 @@
     text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
   }
 
+  &__subtitle {
+    color: $color-black;
+    text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
+    font-family: 'artdeco';
+  }
+
   &__caption {
     position: absolute;
     top: 50%;
