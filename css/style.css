@@ -838,7 +838,7 @@ hr {
   padding: 5rem 0;
   font-size: 3.5rem;
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
-  color: #fff; }
+  color: #000; }
   @media only screen and (max-width: 56.25em) {
     .section-about {
       padding: 5rem 0;
@@ -883,10 +883,10 @@ hr {
   cursor: pointer;
   display: inline-block;
   padding: 0.4em 1.8em 0.4em 1.6em;
-  color: #f7f7f7;
-  font-size: 0.8em;
+  color: #000;
+  font-size: 1em;
   line-height: 2;
-  border: 1px solid silver; }
+  border: 2px solid silver; }
 
 .section-features {
   border-top: 2px solid silver;
