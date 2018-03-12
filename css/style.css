@@ -872,7 +872,7 @@ hr {
   max-height: 999em; }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: 'Read me'; }
+  content: 'Read more'; }
 
 .read-more-state:checked ~ .read-more-trigger:before {
   content: 'Read less'; }
@@ -880,11 +880,11 @@ hr {
 .read-more-trigger {
   cursor: pointer;
   display: inline-block;
-  padding: 0 5rem;
-  color: #c0c0c0;
+  padding: 0.5em 0.5em;
+  color: #f7f7f7;
   font-size: 0.9em;
-  line-height: 2;
-  border: 1px solid #ddd; }
+  line-height: 1.7;
+  border: 1px solid silver; }
 
 .section-features {
   border-top: 2px solid silver;
