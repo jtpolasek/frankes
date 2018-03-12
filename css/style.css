@@ -827,6 +827,9 @@ hr {
   top: 0;
   transform: rotate(-135deg); }
 
+.navigation .diamond {
+  padding-top: px; }
+
 .section-about {
   display: flex;
   justify-content: center;
