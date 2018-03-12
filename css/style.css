@@ -872,6 +872,7 @@ hr {
   max-height: 999em; }
 
 .read-more-state ~ .read-more-trigger:before {
+  white-space: nowrap;
   content: 'Read ore'; }
 
 .read-more-state:checked ~ .read-more-trigger:before {

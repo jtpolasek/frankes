@@ -57,6 +57,7 @@
 }
 
 .read-more-state ~ .read-more-trigger:before {
+  white-space: nowrap;
   content: 'Read ore';
 }
 
