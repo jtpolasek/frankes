@@ -57,7 +57,7 @@
 }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: 'Read mor';
+  content: 'Read more';
 }
 
 .read-more-state:checked ~ .read-more-trigger:before {
@@ -65,11 +65,12 @@
 }
 
 .read-more-trigger {
+  width: 100px;
   cursor: pointer;
   display: inline-block;
   padding: 0 0.5em;
   color: $color-grey-light-1;
-  font-size: 0.9em;
+  font-size: 0.8em;
   line-height: 2;
   border: 1px solid silver;
 }
