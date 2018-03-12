@@ -57,7 +57,7 @@
 }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: 'Read more';
+  content: 'Read ore';
 }
 
 .read-more-state:checked ~ .read-more-trigger:before {
@@ -65,7 +65,6 @@
 }
 
 .read-more-trigger {
-  width: 100px;
   cursor: pointer;
   display: inline-block;
   padding: 0 0.5em;
