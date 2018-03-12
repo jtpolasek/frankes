@@ -371,12 +371,12 @@ body {
 .composition {
   position: relative; }
   .composition__photo {
-    width: 55%;
+    width: 50%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
     border-radius: 2px;
     position: absolute;
     z-index: 10;
-    transition: all .2s;
+    transition: all 0.2s;
     outline-offset: 2rem; }
     @media only screen and (max-width: 56.25em) {
       .composition__photo {
@@ -582,7 +582,7 @@ hr {
         margin-bottom: 6rem; } }
   @media only screen and (max-width: 56.25em) {
     .row {
-      max-width: 50rem;
+      max-width: 55rem;
       padding: 0 3rem; } }
   .row::after {
     content: "";
@@ -855,7 +855,7 @@ hr {
   font-size: 3rem; }
 
 .dedication__column {
-  padding: 0 1.7rem; }
+  padding: 0 1rem; }
 
 .read-more-state {
   display: none; }
@@ -882,7 +882,7 @@ hr {
   margin-top: 1em;
   cursor: pointer;
   display: inline-block;
-  padding: 0.4em 1.4em;
+  padding: 0.4em 1.6em;
   color: #f7f7f7;
   font-size: 0.8em;
   line-height: 2;
