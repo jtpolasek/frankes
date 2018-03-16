@@ -635,6 +635,7 @@ hr {
 
 .header__h1 {
   font-size: 4rem;
+  color: #b41010;
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3); }
 
 .header__h2 {
