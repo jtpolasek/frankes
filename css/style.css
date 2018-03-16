@@ -615,7 +615,7 @@ hr {
     width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
 .header__new {
-  height: 95vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -906,6 +906,25 @@ hr {
     .section-features {
       padding: 4rem 0;
       font-size: 3.6rem; }
+      .section-features h3 {
+        font-size: 3rem; }
+      .section-features p {
+        font-size: 2rem; } }
+  @media only screen and (max-width: 75em) {
+    .section-features {
+      padding: 4rem 0;
+      font-size: 3.6rem; }
+      .section-features h3 {
+        font-size: 3rem; }
+      .section-features p {
+        font-size: 2rem; } }
+  @media only screen and (min-width: 112.5em) {
+    .section-features {
+      padding: 4rem 0;
+      font-size: 3.6rem;
+      border: 1px solid green; }
+      .section-features #beard:after {
+        content: '<br>'; }
       .section-features h3 {
         font-size: 3rem; }
       .section-features p {
