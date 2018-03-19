@@ -639,7 +639,7 @@ hr {
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3); }
 
 .header__h2 {
-  font-size: 3rem;
+  font-size: 3.2rem;
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3); }
 
 .header__btn,
@@ -901,7 +901,7 @@ hr {
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
   color: #000;
   background-position: left;
-  background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/shave.jpg);
+  background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/shave_op.jpg);
   background-size: cover; }
   @media only screen and (max-width: 56.25em) {
     .section-features {
