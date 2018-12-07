@@ -177,13 +177,13 @@ body {
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1.5rem 4rem;
+  padding: 2rem 6rem;
   display: inline-block;
-  border-radius: 10rem;
   transition: all 0.2s;
   position: relative;
-  font-size: 1.6rem;
-  border: none;
+  font-size: 3rem;
+  margin-top: 1.5rem;
+  border: 2px solid white;
   cursor: pointer; }
 
 .btn:hover {
@@ -211,7 +211,7 @@ body {
     background-color: #55c57a; }
 
 .btn::after {
-  content: '';
+  content: "";
   display: inline-block;
   height: 100%;
   width: 100%;
@@ -941,6 +941,7 @@ hr {
       padding: 10rem 0 10rem 0; } }
 
 .section-stories {
+  border-bottom: 2px solid silver;
   text-shadow: 0 2rem 4.5rem rgba(0, 0, 0, 0.3);
   color: #000;
   font-size: 3.5rem;

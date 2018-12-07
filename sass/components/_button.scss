@@ -4,15 +4,15 @@
   &:visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 1.5rem 4rem;
+    padding: 2rem 6rem;
     display: inline-block;
-    border-radius: 10rem;
     transition: all 0.2s;
     position: relative;
-    font-size: $default-font-size;
+    font-size: 3rem;
+    margin-top: 1.5rem;
 
     //Change for the <button> element
-    border: none;
+    border: 2px solid white;
     cursor: pointer;
   }
 
@@ -52,7 +52,7 @@
   }
 
   &::after {
-    content: '';
+    content: "";
     display: inline-block;
     height: 100%;
     width: 100%;
